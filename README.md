@@ -36,11 +36,13 @@ _Prices updated February 2025_
 
 ### Assembly
 
-<div style="flex">
-<img src="assets/map_front.jpg" alt="front of map" width="300"/>
-<img src="assets/map_back.jpg" alt="back of map" width="300"/>
+<div style="display: flex; justify-content: space-evenly; margin-bottom:5px">
+    <img src="assets/map_front.jpg" alt="front of map" style="width: 49.65%; object-fit: cover;">
+    <img src="assets/map_back.jpg" alt="back of map" style="width: 49.65%; object-fit: cover; padding-left:5px">
 </div>
-<img src="assets/map_breadboards.jpg" alt="main circuitry of map" width="605"/>
+    <img src="assets/map_breadboards.jpg" alt="main circuitry of map" style="width: 100%; object-fit: cover"/>
+
+
 
 ## Software
 
@@ -69,7 +71,8 @@ in the missing parts of Lake Winnebago. For the sake of not overloading the UV p
 pixels was used for the actual image printed on the acrylic, found [here](./wisconsin_image/wisconsin.jpg). However, to
 showcase the capability of this technique, a 40000x40000 image was also constructed. An animation for this image is shown
 below, where UW-Platteville, the capitol building in Madison, and Milwaukee are easily found and identified within the image.
-<video width="605" autoplay muted name="media"><source src="assets/zooming_on_map.mp4" type="video/mp4"></video>
+<br>
+<img src="assets/zooming_on_map.gif" alt="zooming in on map to show resolution" style="width: 100%">
 
 ### Pico Code
 
@@ -111,10 +114,10 @@ allow for more artistic and functional liberties, each info blurb was created as
 the name of the location, some related image, the coordinates, and the date. The second screen would feature a text description
 of sentimental events which occurred there, along with a one-line review of the location at the bottom. An example is shown below.
 <br>
-<flex>
-<img src="pico/screen_images/Screen_Platteville_Title.png" alt="screen for platteville text description" width="300"/>
-<img src="pico/screen_images/Screen_Platteville_Text.png" alt="screen for platteville title and image" width="300"/>
-</flex>
+<div style="display: flex; justify-content: space-evenly; margin-bottom:5px">
+    <img src="pico/screen_images/Screen_Platteville_Title.png" alt="screen for platteville text description" style="width: 49.65%; object-fit: cover;">
+    <img src="pico/screen_images/Screen_Platteville_Text.png" alt="screen for platteville title and image" style="width: 49.65%; object-fit: cover; padding-left:5px">
+</div>
 <br>
 Images following this format were created in PaintDotNet as PNG images and converted to a byte string compatible with the 128x64-pixel
 resolution of the OLEDs using the `convert.py` script. The majority of these images were omitted from the public project for privacy
@@ -126,7 +129,7 @@ reasons.
 
 For some unknown reason, there are occasionally artifacts at presumably the stitchlines of the images, which can be seen below.
 <br>
-<img src="assets/switching_artifacts.png" alt="artifacts in the stitching process visible at stitchlines" width="605"/>
+<img src="assets/switching_artifacts.png" alt="artifacts in the stitching process visible at stitchlines" width="100%"/>
 <br>
 The artifacting appears as inconsistent whitespace along the stitchlines. Some misalignment in the stitching algorithm could make
 sense, however that would presumably result in a consistent white line, not in the inconsistent dotting appearing here. Another
