@@ -37,8 +37,8 @@ _Prices updated February 2025_
 ### Assembly
 
 <div style="display: flex; justify-content: space-evenly; margin-bottom:5px">
-    <img src="assets/map_front.jpg" alt="front of map" style="width: 49.65%; object-fit: cover;">
-    <img src="assets/map_back.jpg" alt="back of map" style="width: 49.65%; object-fit: cover; padding-left:5px">
+    <img src="assets/map_front.jpg" alt="front of map" width="49.65%">
+    <img src="assets/map_back.jpg" alt="back of map" width="49.65%" style="padding-left:5px">
 </div>
     <img src="assets/map_breadboards.jpg" alt="main circuitry of map" style="width: 100%; object-fit: cover"/>
 
@@ -115,8 +115,8 @@ the name of the location, some related image, the coordinates, and the date. The
 of sentimental events which occurred there, along with a one-line review of the location at the bottom. An example is shown below.
 <br>
 <div style="display: flex; justify-content: space-evenly; margin-bottom:5px">
-    <img src="pico/screen_images/Screen_Platteville_Title.png" alt="screen for platteville text description" style="width: 49.65%; object-fit: cover;">
-    <img src="pico/screen_images/Screen_Platteville_Text.png" alt="screen for platteville title and image" style="width: 49.65%; object-fit: cover; padding-left:5px">
+    <img src="pico/screen_images/Screen_Platteville_Title.png" alt="screen for platteville text description" width="49.65%" style="object-fit: cover;">
+    <img src="pico/screen_images/Screen_Platteville_Text.png" alt="screen for platteville title and image" width="49.65%" style="object-fit: cover; padding-left:5px">
 </div>
 <br>
 Images following this format were created in PaintDotNet as PNG images and converted to a byte string compatible with the 128x64-pixel
