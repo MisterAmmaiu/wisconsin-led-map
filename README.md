@@ -4,7 +4,7 @@
 
 The goal of this project was to create a map of Wisconsin that contains several LEDs placed at specific locations. These
 LEDs would be turned on by corresponding buttons at the base of the map, and a brief info blurb about the location of
-the LED would be displayed on small display next to the buttons. This was designed to be an anniverary gift and was
+the LED would be displayed on small display next to the buttons. This was designed to be an anniversary gift and was
 inspired by similar systems at museums used to interact with large maps or model cities.
 
 ## Demo
