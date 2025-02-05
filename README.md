@@ -102,7 +102,7 @@ The other portion of the Pico software was dedicated to getting the SSD1306 OLED
 show some text was quite straightforward, especially thanks to [this video](https://www.youtube.com/watch?v=YR9v04qzJ5E).
 However, when another display was connected, strange errors were encountered. Eventually it was determined that this was due
 to address conflicts on the I<sup>2</sup>C bus. Unsurprisingly, each device on the I<sup>2</sup>C bus must have a unique address. What was surprising,
-however, was that each of the OLED displays used the same address, with no easy way to change it. _Technically there is [a way](https://www.reddit.com/r/arduino/comments/1br16tb/changing_I<sup>2</sup>C_address_on_096_ssd1306_oled_displays/)
+however, was that each of the OLED displays used the same address, with no easy way to change it. _Technically there is [a way](https://www.reddit.com/r/arduino/comments/1br16tb/changing_I2C_address_on_096_ssd1306_oled_displays/)
 to change the addresses, but it can only change the address to one other address, and it involves incredibly precise soldering._
 Luckily, the Pico happens to have two separate I<sup>2</sup>C busses, so a quick fix for this project was just to put each display on a
 separate bus.
